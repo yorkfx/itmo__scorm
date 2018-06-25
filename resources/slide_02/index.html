@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Методологии разработки | Тестовый урок от Ростова Данила">
+        
+        <title>Методологии разработки</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../global_styles.css">
+    </head>
+    <body class="page">
+        <h1 class="page__title">Методологии разработки</h1>
+        
+        <p class="page__paragraph page__paragraph_main-info">
+            <span class="fa fa-book text-success page__paragraph-icon"></span>
+            Классификация матодологий разработки веб-интерфейсов:
+        </p>
+        
+        <ul class="list page__list">
+            <li class="list__item">
+                Методология ("<b>Водопад</b>")
+            </li>
+            <li class="list__item">
+                Методология ("<b>V-model</b>")
+            </li>
+            <li class="list__item">
+                Методология ("<b>Инкрементная</b>")
+            </li>
+            <li class="list__item">
+                Методология ("<b>RAD-модель</b>")
+            </li>
+            <li class="list__item">
+                Методология ("<b>Agile</b>")
+            </li>
+             <li class="list__item">
+                Методология ("<b>Итерационная</b>")
+            </li>
+            <li class="list__item">
+                Методология ("<b>Спиральная</b>")
+            </li>
+        </ul>
+        
+        <details class="spoiler page__spoiler">
+            <summary class="spoiler__title">
+                <span class="fa fa-info-circle text-success spoiler__title_icon"></span>
+                Информация о методологиях
+            </summary>
+            <details class="spoiler page__spoiler">
+                <summary class="spoiler__title">
+                    "<b>Водопад</b>"
+                </summary>
+                <p class="spoiler__content_text">
+                    Она подразумевает последовательное прохождение стадий разработки, каждая из которых должна завершиться полностью до начала следующей стадии. Так как данная методология жестко фиксирует все стадии, разработка проходит быстро, её стоимость и сроки реализации заранее определены.
+                </p>
+            </details>
+            <details class="spoiler page__spoiler">
+                <summary class="spoiler__title">
+                   "<b>V-model</b>"
+                </summary>
+                <p class="spoiler__content_text">
+                    Данная модель направлена на интенсивное тестирование продукта, уже на начальной стадии проектирования. Её структура зависит от предыдущего этапа. Данная модель предполагает разработку и корректировку интерфейса, а также проектирование взаимодействия с пользователями на начальном этапе.
+                </p>
+            </details>
+            <details class="spoiler page__spoiler">
+                <summary class="spoiler__title">
+                    "<b>Инкрементная</b>"
+                </summary>
+                <p class="spoiler__content_text">
+                    Разработка ПО, согласно этой модели заключается в выпуске на первом этапе готового продукта с базовой функциональностью, а после этого следуют этапы добавления новых функций.
+                </p>
+            </details>
+            <details class="spoiler page__spoiler">
+                <summary class="spoiler__title">
+                   "<b>RAD-модель</b>"
+                </summary>
+                <p class="spoiler__content_text">
+                    Разновидность инкрементной модели, в которой модули системы разрабатываются параллельно разными командами и делятся на мини-проекты. Созданные разработки в результате интегрируются в одну рабочую систему.
+                </p>
+            </details>
+            <details class="spoiler page__spoiler">
+                <summary class="spoiler__title">
+                    "<b>Agile</b>"
+                </summary>
+                <p class="spoiler__content_text">
+                    Гибкая методология разработки. Весь процесс разработки делится на итерации, которые могут меняться, пока система не будет готова полностью.
+                </p>
+            </details>
+            <details class="spoiler page__spoiler">
+                <summary class="spoiler__title">
+                    "<b>Итерационная</b>"
+                </summary>
+                <p class="spoiler__content_text">
+                    Предполагает на начальном этапе реализации части функционала, которая становится базой для дальнейших требований. На последующих этапах этот процесс повторяется шаг за шагом, пока не будет реализован полный функционал. 
+                </p>
+            </details>
+            <details class="spoiler page__spoiler">
+                <summary class="spoiler__title">
+                    "<b>Спиральная</b>"
+                </summary>
+                <p class="spoiler__content_text">
+                    Имеет акцент на анализ рисков. Она похожа на инкрементную модель, и хорошо подходит для решения важных бизнес-задач. Такая модель не подходит для маленьких проектов, а каждый шаг требует большего анализа для оценки действий, чем программирование. 
+                </p>
+            </details>
+        </details>
+        
+        <button type="button" class="btn btn-success page__submit" 
+                onclick="window.parent.postMessage({ 'message': 'next' }, '*')">Далее</button>
+    </body>
+</html>
